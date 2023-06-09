@@ -1,9 +1,8 @@
 # CALCULLA
 # Calculator app made on React
-<<<<<<< HEAD
 
-=======
->>>>>>> 24a2b1d4a3dd534e76469490f6162763c1ea614a
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
