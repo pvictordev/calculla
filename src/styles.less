@@ -1,0 +1,17 @@
+@white-color: #fff; 
+@black-color: #333;
+body {
+    background-color: @white-color;
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: [start] minmax(50px, 200px) [col2] minmax(50px, 200px) [col3] minmax(50px, 200px) [col-end] minmax(50px, 200px);
+
+}
+.column-two {
+    grid-column: span 2;
+}
+.output {
+    grid-column: 1 / -1;
+}
