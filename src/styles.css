@@ -1,13 +1,40 @@
 body {
   background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 5%;
 }
 .calculator-grid {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: [start] minmax(50px, 200px) [col2] minmax(50px, 200px) [col3] minmax(50px, 200px) [col-end] minmax(50px, 200px);
+  grid-template-rows: 70px 70px 70px 70px 70px 70px;
+  border: 3px solid #333;
+  background-color: #cbcbcb;
 }
 .column-two {
   grid-column: span 2;
 }
 .output {
   grid-column: 1 / -1;
+  text-align: right;
+  margin: 10px 10px 0 0 ;
+}
+.previous-num {
+  margin: 0 0 10px 0 ;
+}
+.current-num {
+  margin: 10px 0 0 0;
+}
+button {
+  background-color: gray;
+  border: 3px solid #333;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+button:active {
+  background-color: #333;
 }
