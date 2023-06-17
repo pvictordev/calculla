@@ -1,13 +1,21 @@
 //JSX
 import './styles.less'; 
 import Main from './main';
+import { useReducer } from 'react';
+
+
+function reducer(state, action) {
+
+}
 
 function App() {
+  const [{currentOperrand, previousOperrand, operation}, dispatch] = useReducer(reducer, {})
+
   return (
     <div className="calculator-grid">
       <div className="output">
-        <div className="previous-num">1234,1234 *</div>
-        <div className="current-num">1234,1234</div>
+        <div className="previous-num">{previousOperrand} {operation}</div>
+        <div className="current-num">{currentOperrand}</div>
         </div> 
         <button>AC</button>
         <button>DEL</button>
