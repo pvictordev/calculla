@@ -4,7 +4,10 @@ import Main from './main';
 import { useReducer } from 'react';
 
 
-function reducer(state, action) {
+const ACTIONS = {
+
+}
+function reducer(state, {type,payload}) {
 
 }
 
