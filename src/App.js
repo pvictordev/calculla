@@ -11,7 +11,7 @@ const ACTIONS = {
   DELETE_DIGIT: 'delete-digit', 
   EVALUATE: 'evaluate',
 }
-function reducer(state, {type,payload}) {
+function reducer(state, {type, payload}) {
   switch(type) {
     case ACTIONS.ADD_DIGIT:
       return {
@@ -24,6 +24,7 @@ function reducer(state, {type,payload}) {
 function App() {
   const [{currentOperrand, previousOperrand, operation}, dispatch] = useReducer(reducer, {})
 
+  dispatch({type: ACTIONS.ADD_DIGIT, payload: {digit:1 }})
   return (
     <div className="calculator-grid">
       <div className="output">
