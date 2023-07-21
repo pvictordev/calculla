@@ -1,12 +1,15 @@
 @main-color: linear-gradient(to right, #360033, #0b8793);
 @transparent-color:  rgba(255, 255, 255, .1);
+@main-font: Arial;
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
   body {
     background: @main-color;
+    font-family:@main-font;
     margin: 0;
+
   }
   .calculator-grid {
     display: grid;
@@ -46,7 +49,7 @@
     margin-bottom: 10px;
   }
   .output .previous-operand {
-    color: @transparent-color  ;
+    color: rgba(255, 255, 255, .4);;
     font-size: 1.5rem;
   }
   .output .current-operand {

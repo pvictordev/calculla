@@ -5,6 +5,7 @@
 }
 body {
   background: linear-gradient(to right, #360033, #0b8793);
+  font-family: Arial;
   margin: 0;
 }
 .calculator-grid {
@@ -44,7 +45,7 @@ body {
   margin-bottom: 10px;
 }
 .output .previous-operand {
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
   font-size: 1.5rem;
 }
 .output .current-operand {

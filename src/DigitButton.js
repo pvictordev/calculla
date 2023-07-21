@@ -1,14 +1,11 @@
-import { ACTIONS } from "./CalculatorApp";
+import { ACTIONS } from "./CalculatorApp"
 
-export default function DigitButton({dispatch, digit}) {
-    return (
-        <button
-        onClick={() => {
-        dispatch({type: ACTIONS.CHOOSE_OPERATION, payload: {digit}})
-        }}>
-            {digit}
-        </button>
-    )
+export default function DigitButton({ dispatch, digit }) {
+  return (
+    <button
+      onClick={() => dispatch({ type: ACTIONS.ADD_DIGIT, payload: { digit } })}
+    >
+      {digit}
+    </button>
+  )
 }
-
-
