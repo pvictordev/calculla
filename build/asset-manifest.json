@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/calculla/static/css/main.9dab3132.css",
+    "main.js": "/calculla/static/js/main.24d6a642.js",
+    "static/media/style.less": "/calculla/static/media/style.b841019dfd7988483e9a.less",
+    "index.html": "/calculla/index.html",
+    "main.9dab3132.css.map": "/calculla/static/css/main.9dab3132.css.map",
+    "main.24d6a642.js.map": "/calculla/static/js/main.24d6a642.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dab3132.css",
+    "static/js/main.24d6a642.js"
+  ]
+}
